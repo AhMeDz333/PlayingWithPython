@@ -15,6 +15,7 @@ It actually helps shrink the app package size a really big deal.
 
 ##Usage
 python CleanProject.py 'directory_path' regex1 regex2 ... regexN
+
 Example:
 
 ```python
