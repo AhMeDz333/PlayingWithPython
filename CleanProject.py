@@ -10,6 +10,7 @@
 import os, re, sys, webbrowser
 
 whiteList = set()
+regexMatches = set()
 regexList = set()
 outputFile = "output.txt"
 f = open(outputFile, 'w')
@@ -38,7 +39,7 @@ def findAll(regex, content):
   pattern = re.compile(regex)
   return pattern.findall(content)
 
-#Check to see what resources are referenced in this function.
+#Check to see what resources are referenced in this file.
 def checkFileForResources(path):
   file = open(path, 'r')
   contents = file.read()
@@ -77,7 +78,7 @@ def deleteIfUnused(directory, origFileName):
       #Delete if not whiteListed nor matches any given Regex.
       if fileName not in whiteList:
         if matchRegex(fileName):
-          addFileToWhiteList(fileName)
+          regexMatches.add(fileName)
         else:
           deleteResFile(directory, origFileName)
 
@@ -92,7 +93,7 @@ def deleteResFile(directory, fileName):
   bytesFreed += fileSize
 
   #Actually delete the file.
-  os.unlink(path)
+  # os.unlink(path)
   printToFile(("Deleted (%.4f Mbs): " + path) % fileSize)
 
 #Print to file.
@@ -104,10 +105,20 @@ def printToFile(s):
 def showStatus():
   if len(whiteList) != 0: 
     printToFile("")
-    printToFile("files that has been excluded.")
+    printToFile("Files that has been whiteListed: ")
+    printToFile("--------------------------------\n")
+
 
   for fileName in whiteList:
-    printToFile(fileName)
+    printToFile("--> " + fileName)
+
+  if len(regexMatches) != 0: 
+    printToFile("")
+    printToFile("Files that matched an expression and were excluded: ")
+    printToFile("---------------------------------------------------\n")
+
+  for fileName in regexMatches:
+    printToFile("--> " + fileName)
 
   printToFile("")
   printToFile("%d file(s) deleted" % deletedFiles)
@@ -119,22 +130,30 @@ def showStatus():
   webbrowser.open(outputFile)
   print ("Done!")
 
+#Get real files path (.../app/src/...)
+def getRootDir(path):
+  for root, dirs, files in os.walk(path):
+    if "app/src" in root:
+      return root
+
+  return ""
+
+
 #######################################################################
 
-#Make sure the arguements are provided correctly (at least the project's path)
+#Make sure they passed in a project source directory.
 args = sys.argv
 if len(args) < 2:
-  print "Type: python CleanProject.py \'directory_path\' + any number of expressions space separated."
+  print "Usage: python CleanProject.py 'directory_path' regex1 regex2 ... regexN"
   quit()
 
-rootDir = args[1]
+rootDir = max(args[1], getRootDir(args[1]))
+# rootDir = args[1]
 resDir = rootDir
 
-#Rest of the arguements are probably the expressions to exclude.
 for i in range(2,len(args)):
   regexList.add(args[i])
 
-#Detect the resources folder and whiteList the files used in project.
 for root, dirs, files in os.walk(rootDir):
   if isResourceDir(root):
     resDir = root
@@ -145,7 +164,7 @@ for root, dirs, files in os.walk(rootDir):
 print ("Detected resource directory: %s" % resDir)
 
 for root, dirs, files in os.walk(resDir):
-    for file in files:
-      deleteIfUnused(root, file)
+  for file in files:
+    deleteIfUnused(root, file)
 
 showStatus()

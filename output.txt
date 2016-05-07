@@ -1,0 +1,145 @@
+Deleted (0.0481 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxxhdpi/quarter_content_bg.9.png
+Deleted (0.0011 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxxhdpi/bg_right.9.png
+Deleted (1.9666 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxxhdpi/splash.9.png
+Deleted (0.0006 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxxhdpi/bg_left.9.png
+Deleted (0.0013 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxxhdpi/bg_right_night.9.png
+Deleted (0.0014 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxxhdpi/bg_left_night.9.png
+Deleted (0.0346 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxxhdpi/quarter_header_bg.9.png
+Deleted (0.0222 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/quarter_content_bg.9.png
+Deleted (0.0007 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/bg_right.9.png
+Deleted (1.1391 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/splash.9.png
+Deleted (0.0220 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/home_border_image.9.png
+Deleted (0.0004 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/bg_left.9.png
+Deleted (0.0008 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/bg_right_night.9.png
+Deleted (0.0007 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/bg_left_night.9.png
+Deleted (0.0175 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/quarter_header_bg.9.png
+Deleted (0.1080 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/sorra_border.9.png
+Deleted (0.0031 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xxhdpi/border.9.png
+Deleted (0.0150 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/quarter_content_bg.9.png
+Deleted (0.0004 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/bg_right.9.png
+Deleted (0.5111 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/splash.9.png
+Deleted (0.0149 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/home_border_image.9.png
+Deleted (0.0003 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/bg_left.9.png
+Deleted (0.0005 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/bg_right_night.9.png
+Deleted (0.0005 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/bg_left_night.9.png
+Deleted (0.0107 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/quarter_header_bg.9.png
+Deleted (0.0514 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/sorra_border.9.png
+Deleted (0.0022 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-xhdpi/border.9.png
+Deleted (0.0004 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable/popup.9.png
+Deleted (0.0009 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable/action_item_selected.9.png
+Deleted (0.0091 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/quarter_content_bg.9.png
+Deleted (0.0003 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/bg_right.9.png
+Deleted (0.2754 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/splash.9.png
+Deleted (0.0086 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/home_border_image.9.png
+Deleted (0.0002 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/bg_left.9.png
+Deleted (0.0002 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/bg_right_night.9.png
+Deleted (0.0002 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/bg_left_night.9.png
+Deleted (0.0067 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/quarter_header_bg.9.png
+Deleted (0.0312 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/sorra_border.9.png
+Deleted (0.0014 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-hdpi/border.9.png
+Deleted (0.0025 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-ldpi/home_border_image.9.png
+Deleted (0.0087 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-ldpi/sorra_border.9.png
+Deleted (0.0049 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/quarter_content_bg.9.png
+Deleted (0.0002 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/bg_right.9.png
+Deleted (0.1123 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/splash.9.png
+Deleted (0.0044 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/home_border_image.9.png
+Deleted (0.0616 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/first_page_bg_day.9.png
+Deleted (0.0002 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/bg_left.9.png
+Deleted (0.0474 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/first_page_bg_night.9.png
+Deleted (0.0002 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/bg_right_night.9.png
+Deleted (0.0002 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/bg_left_night.9.png
+Deleted (0.0037 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/quarter_header_bg.9.png
+Deleted (0.0144 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/sorra_border.9.png
+Deleted (0.0008 Mbs): /home/ahmadz/QuraanAndroid/app/src/main/res/drawable-mdpi/border.9.png
+
+Files that has been whiteListed: 
+--------------------------------
+
+--> empty_bookmark
+--> dropdownmenu_normal
+--> splash
+--> menu_eraser
+--> popup
+--> menu_search
+--> play_btn_normal
+--> list_selector
+--> bg_left_night
+--> yellow
+--> ic_bookmark_black_24dp
+--> ic_lightbulb_outline_black_24dp
+--> ic_bookmark_border_black_24dp
+--> bg_right_night
+--> tipbackground
+--> first_page_bg_day
+--> border_1bookmark
+--> red_bookmark
+--> home_setting_pressed
+--> menu_down_arrow
+--> bg_right
+--> black_emoty
+--> btn_next_selector
+--> ic_media_pause
+--> home_border_image
+--> border
+--> menu_icon
+--> ic_media_play
+--> surah_04
+--> playicon
+--> pages
+--> bg_left
+--> explication_btn_normal
+--> reasons_btn_normal
+--> numberborder
+--> black
+--> quarter_content_bg
+--> appicon
+--> white
+--> quarter_header_bg
+--> next_btn_normal
+--> flowerborder
+--> show_btn_normal
+--> search_icon
+--> tilaawah_btn_normal
+--> yellow_bookmark
+--> abc_ic_clear_mtrl_alpha
+--> cell_bg_rectangle
+--> home_setting_normal
+--> btn_star_big_on
+--> meaning_btn_normal
+--> yellow_empty
+--> sorra_border
+--> menu_ok
+--> shadow
+--> stopicon
+--> icon
+--> makka_icon
+--> round_bg_button
+--> madyna_icon
+--> round_bg_cancel_button
+--> menu_info
+--> next_btn_pressed
+--> menu_up_arrow
+--> white_empty
+--> switch_selector
+--> ic_menu_share
+--> first_page_bg_night
+--> circular_tv
+--> border_2bookmark
+--> ic_cancel_white_24dp
+--> aya
+--> action_item_selected
+--> quarter_1
+--> quarter_2
+--> quarter_3
+--> quarter_4
+--> back_btn_normal
+--> action_item_btn
+--> ic_repeat_black_24dp
+
+Files that matched an expression and were excluded: 
+---------------------------------------------------
+
+--> surah_03
+
+53 file(s) deleted
+4.5715 Mbs were freed
