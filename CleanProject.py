@@ -93,7 +93,7 @@ def deleteResFile(directory, fileName):
   bytesFreed += fileSize
 
   #Actually delete the file.
-  # os.unlink(path)
+  os.unlink(path)
   printToFile(("Deleted (%.4f Mbs): " + path) % fileSize)
 
 #Print to file.
