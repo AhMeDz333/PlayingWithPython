@@ -12,6 +12,7 @@ import os, re, sys, webbrowser
 whiteList = set()
 regexMatches = set()
 regexList = set()
+toBeDeleted = set()
 outputFile = "output.txt"
 f = open(outputFile, 'w')
 deletedFiles = 0
@@ -93,13 +94,18 @@ def deleteResFile(directory, fileName):
   bytesFreed += fileSize
 
   #Actually delete the file.
-  os.unlink(path)
-  printToFile(("Deleted (%.4f Mbs): " + path) % fileSize)
+  toBeDeleted.add(path)
+  printToFile(("Detected (%.4f Mbs): " + path) % fileSize)
 
 #Print to file.
 def printToFile(s):
   # print s
   f.write(s + "\n")
+
+#Delete queued files.
+def deleteQueuedFiles():
+  for file in toBeDeleted:
+    os.unlink(file)
 
 #Shows status of completion.
 def showStatus():
@@ -130,6 +136,16 @@ def showStatus():
   webbrowser.open(outputFile)
   print ("Done!")
 
+  print "Are you sure you want to delete the files specified in the file? (Y/N).."
+  c = raw_input()[0]
+  if c == 'Y':
+    deleteQueuedFiles()
+    print 'Deleted successfully!'
+  else:
+    print 'Aborted!'
+
+
+
 #Get real files path (.../app/src/...)
 def getRootDir(path):
   for root, dirs, files in os.walk(path):
@@ -143,7 +159,7 @@ def getRootDir(path):
 
 #Make sure they passed in a project source directory.
 args = sys.argv
-if len(args) < 2:
+if len(args) < 2 or not os.path.exists(args[1]):
   print "Usage: python CleanProject.py 'directory_path' regex1 regex2 ... regexN"
   quit()
 
